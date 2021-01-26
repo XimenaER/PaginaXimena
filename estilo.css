@@ -1,0 +1,31 @@
+p{
+    color: rgb(1, 217, 255);
+    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+}
+
+.casa{
+    color: rgb(0, 162, 255);
+    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+}
+h1{
+    color: rgb(152, 229, 231);
+    font-family: fantasy;
+    text-align: center;
+    font-size: 50px;
+}
+
+body{
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('fondo.jpg');
+}
+img{
+    opacity: 100%;
+    width: 33%;
+    height: 33%;
+    
+}
