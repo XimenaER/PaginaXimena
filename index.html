@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang ="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,76 +8,97 @@
     <title>Página de Ximena</title>
 </head>
 
-<!--esto es un comentario-->
+<!-- Esto es un comentario -->
 <body>
-
+    <!--Barra de navegación-->
     <div class="container">
-        <nav class="navbar fixed-top navbar-ligth" style="background-color:rgb(77, 75, 75) ;">
-            <a class= "navbar-brand" style="color: rgb(255, 255, 255); font-family: Verdana, Geneva, Tahoma, sans-serif; "href= "#Historia del ajedrez">Historia del ajedrez</a>
-            <a class= "navbar-brand" style="color: rgb(255, 255, 255); font-family: Verdana, Geneva, Tahoma, sans-serif; "href= "#Reglas del ajedrez">Reglas del ajedrez</a>
-            <a class= "navbar-brand" style="color: rgb(255, 255, 255); font-family: Verdana, Geneva, Tahoma, sans-serif; "href= "#Las piezas">Las piezas</a>
-            <a class= "navbar-brand" style="color: rgb(255, 255, 255); font-family: Verdana, Geneva, Tahoma, sans-serif; "herf= "#Fotos">Fotos</a>
+        <nav class="navbar fixed-top navbar-light" style="background-color: #666666;">
+            <a class="navbar-brand" style="color:  #adf5ff; font-family: Verdana, Geneva, Tahoma, sans-serif;" href ="#Reglas">Reglas</a>
+            <a class="navbar-brand" style="color:  #adf5ff; font-family: Verdana, Geneva, Tahoma, sans-serif;" href="#Fotos">Fotos</a>
+            <a class="navbar-brand" style="color: #adf5ff; font-family: Verdana, Geneva, Tahoma, sans-serif;" href="#las piezas del ajedrez">las piezas del ajedrez</a>
+            <a class="navbar-brand" style="color:  #adf5ff; font-family: Verdana, Geneva, Tahoma, sans-serif;" href="#Contacto">Contacto</a>
         </nav>
     </div>
-
+<!--Estos br son necesarios para que se vea bien el contenido-->
     <br>
     <br>
     <br>
+    <!--contanier con texto-->
+    <div class="container" style="background-color:#DEDEDE;" id="Reglas">
+        <p>El Rey puede mover de una casilla en todo su alrededor.</p>
+        <p>La Torre se mueve en horizontal o vertical a lo largo de cualquier número de casillas libres,
+             hasta que alcanza el final del tablero o que sea bloqueado por otra pieza.</p>
+        <p>El Alfil se mueve en línea recta diagonal. Se puede mover tantas casillas se quiera, 
+            hasta que alcance el final del tablero o que esté otra pieza.</p>
+        <p>La Reina es la pieza más poderosa del Ajedrez. Puede mover cualquier número de casillas en línea recta, 
+            de manera horizontal, vertical o diagonal.</p>
+        <p>El Caballo es la única pieza que puede saltar sobre otras piezas. Se mueve dos casillas en dirección horizontal 
+            o vertical y después una casilla más en ángulo recto. El movimiento del Caballo tiene la forma de una «L».</p>
+        <p>El Peón se mueve solo hacia delante, una casilla a la vez a excepción de la primera vez que se mueve un peón donde
+             puede mover de dos casillas hacia delante. El Peón captura en diagonal.</p>
+        
 
-    <div class="container" style="background-color: rgb(121, 239, 255);" id="Historia del ajedrez">
-        <p> Hola mundo, esto es un p</p>
-        <br>
-        <h1>Hola mundo, esto es un h1</h1>
-        <br>
-        <p class="casa">Hola mundo, esto es el estilo "casa"</p>
-    </div>
 
-    <div class="container" style="background-color: rgb(182, 233, 240);" id="Reglas del ajedrez">
-        <p>Hola mundo</p>
-        <p>Hola mundo</p>
-        <p>Hola mundo</p>
 
-    </div>
 
-    <div class="container" style="background-color: rgb(158, 177, 185);" id="Las piezas">
-        <p>Cómo estas mundo?</p>
-        <p>Cómo estas mundo?</p>
-        <p>Cómo estas mundo?</p>
 
     </div>
-
-<div class= "container" style="text-align: center;background-color: rgb(126, 118, 118);" id="Fotos">
-        <img src="foto 1.jpg">
-        <img src="foto 1.jpg">
-        <img src="foto 1.jpg">
-        <img src="foto 1.jpg">
-        <img src="foto 1.jpg">
+    <!--Container con fotos-->
+    <div class="container" style="text-align: center; background-color: #cccccc;" id="Fotos">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Checkmate2.jpg">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Checkmate2.jpg">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Checkmate2.jpg">
+        <img src="fondo.jpg">
     </div>
-    
-    <div class= "card tex-center"style="width: 20ren; heigth: 20ren;">
-        <img src= "foto 1.jpg" style="width: 20%; height: 20%;">
-        <div class= "card-header">Este es el header </div>
-        <div class= "card-body">
-            <h5 class= "card-title">Este es el titulo</h5>
-            <p class= "card-text">Este es el texto</p>
-            
+    <!--Container con cartas-->
+    <div class="container" style="background-color: rgb(#666666);"id="las piezas del ajedrez">
+        <!--Una fila-->
+        <div class="row">
+            <!--Una columna-->
+            <div class="col-xl-6">
+                <div class="card">
+                    <img src="piezas.jpg" style="width: 100%;height: 100%;">
+                    <div class="card-body">
+                        <h5 class="card-title">Pieza.</h5>
+                        <p class="card-text">Estas son las 16 piezas del ajedrez.</p>
+                    </div>
+                </div>
+            </div>
+            <!--Otra columna-->
+            <div class="col-xl-6">
+                <div class="card">
+                    <img src="ajedrez tablero.png" style="width: 100%; height: 100%;">
+                    <div class="card-body">
+                        <h5 class="card-title">Tablero.</h5>
+                        <p class="card-text">Así se acomodan las piezas en el tablero.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-
-
     </div>
+    <!--Formato de contacto-->
+    <form style="background-color: black;">
+        <h2 style="color: white;">Contacto</h2>
+        <!--Formato de correo-->
+        <div class="form-group" id="Contacto">
+            <label style="color: white;">Correo:</label>
+            <input type="email" class="form-control"id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su correo">
+            <small id="emailHelp" class="form-text text-muted">Sus datos serán protegidos y su información será confidencial.</small>
+        </div>
+        <!--Formato de mensaje-->
+        <div class="form-group" id="Contacto">
+            <label style="color: white;">Mensaje:</label>
+            <input type="text" class="form-control"id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escriba su mensaje...">
+        </div>
+        <!--Formato de checkmark-->
+        <div class="form-check"style="background-color: #222222;">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1" style="color: white;">Al presionar este botón usted está de acuerdo con compartir su correo con nosotros.</label>
+        </div>
+        <!--Formato de botón-->
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
 
-
-
-
-
-
-
-
-
-
-
-    
-    
 </body>
 
 </html>
